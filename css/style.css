@@ -89,7 +89,8 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  /*background: #f2f3f7;*/
+  background-image: linear-gradient(to bottom, #f2f5f7,#f7f7f7);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }

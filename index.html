@@ -96,8 +96,9 @@
 <!--
                             <li class="active"><a href="#" data-nav-section="home">Home</a></li>
 -->
-                            <li><a href="#" data-nav-section="about">about</a></li>
                             <li><a href="resume.pdf">resume</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
                             <li><a href="#">blog</a></li>
 <!--
                             <li><a href="#" data-nav-section="skills">What I love</a></li>
@@ -105,7 +106,7 @@
 <!--
                             <li><a href="#" data-nav-section="education">Education</a></li>
 -->
-                           <!-- <li><a href="#" data-nav-section="experience">Experience</a></li>-->
+
                             <!--<li><a href="#" data-nav-section="work">Work</a></li>
                             <li><a href="#" data-nav-section="blog">Blog</a></li>
                             <li><a href="#" data-nav-section="contact">Contact</a></li>-->
@@ -128,7 +129,7 @@
             </aside>
 
             <div id="colorlib-main">
-                <section id="colorlib-hero" class="js-fullheight" data-section="home">
+                <!--<section id="colorlib-hero" class="js-fullheight" data-section="home">
                     <div class="flexslider js-fullheight">
                         <ul class="slides">
                         <li style="background-image: url(images/img_bg_1.jpg);">
@@ -137,12 +138,12 @@
                                 <div class="row">
                                     <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                                         <div class="slider-text-inner js-fullheight">
-                                            <!--<div class="desc merriweather_sans" style="color: whitesmoke">
+                                            &lt;!&ndash;<div class="desc merriweather_sans" style="color: whitesmoke">
                                                 <h4 style="font-weight: 100">Hey there!<br> I'm Han
                                                     and <strong>welcome </strong> to my personal website
                                                 </h4><br>
                                             </div>
--->
+&ndash;&gt;
                                         </div>
                                     </div>
                                 </div>
@@ -155,10 +156,10 @@
                                     <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                                         <div class="slider-text-inner">
                                             <div class="desc">
-                                               <!-- <h3 class="merriweather_sans">Passionate Pilot; <br>Poker Enthusiast; <br> Casual Pianist;
+                                               &lt;!&ndash; <h3 class="merriweather_sans">Passionate Pilot; <br>Poker Enthusiast; <br> Casual Pianist;
                                                     <br><strong>Engineering Student</strong> @ uWaterloo</h3>
                                                     <p><a class="btn btn-primary btn-learn merriweather_sans" style="border-radius: 20px" href="resume.pdf">Check out my resume</a></p>
-                                                <p><a class="btn btn-primary btn-learn" style="border-radius: 20px">Explore my blog</a></p>-->
+                                                <p><a class="btn btn-primary btn-learn" style="border-radius: 20px">Explore my blog</a></p>&ndash;&gt;
 
                                             </div>
                                         </div>
@@ -168,16 +169,19 @@
                         </li>
                         </ul>
                     </div>
-                </section>
+                </section>-->
 
                 <section class="colorlib-about" data-section="about">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-12">
+                                <img src="images/bit_plane.png" alt="">
+                            </div>
+                            <div class="col-md-12">
                                 <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div class="col-md-12">
                                         <div class="about-desc merriweather_sans">
-                                            <span class="heading-meta">Who Am I?</span>
+                                            <h4 style="font-family: 'Merriweather Sans', sans-serif; font-weight: 300;">Hey there!</h4>
                                             <p>My name is<strong style="font-weight: bold"> Han</strong>,
                                                 I am currently a sophomore student majoring in software engineering and minoring in computational mathematics at the university of Waterloo. I have a particular interest
                                                 for the application of data science and statistical learning in finance related fields.
@@ -518,12 +522,12 @@
                     </div>
                 </section>-->
 
-                <!--<section class="colorlib-experience" data-section="experience">
+                <section id="experience" class="colorlib-experience" data-section="experience">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Experience</span>
-                                <h2 class="colorlib-heading animate-box">Work Experience</h2>
+                               <!-- <span class="heading-meta">Experience</span>-->
+                                <h2 class="colorlib-heading animate-box" style="font-family: 'Merriweather Sans', sans-serif">Work Experience</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -532,13 +536,27 @@
                                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                     <div class="timeline-entry-inner">
 
-                                       <div class="timeline-icon color-1">
-                                          <i class="icon-pen2"></i>
+                                       <div class="timeline-icon color-2">
+                                          <i class="icon-data"></i>
                                        </div>
 
                                        <div class="timeline-label">
-                                          <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-                                          <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                                          <h2><strong>Data Lab Intern</strong> at Intact Insurance<br><span>May 2018 - August 2018 (Spring 2018 Term)</span></h2>
+                                           <ul>
+                                               <li>Built a custom in-house library for data modeling for a new statistical learning pipeline</li>
+                                               <li>Reduced runtime for training and cross-validation of XGBoost models by integrating Dask
+                                                   a distributed computing framework in Python
+                                               </li>
+                                               <li> Applied software engineering design to distributed cross-validation algorithms with the
+                                               cooperation of actuaries.
+                                               </li>
+                                               <li>Built a fault-tolerant and highly-available software infrastructure for the data lab team using
+                                               Docker swarm.
+                                               </li>
+                                               <li>Optimized load-balancer algorithms for session balancing between RStudio Pro instances in the
+                                               computer cluster.
+                                               </li>
+                                           </ul>
                                        </div>
                                     </div>
                                  </article>
@@ -546,88 +564,86 @@
 
                                  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
                                     <div class="timeline-entry-inner">
-                                       <div class="timeline-icon color-2">
-                                          <i class="icon-pen2"></i>
-                                       </div>
-                                       <div class="timeline-label">
-                                        <h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-                                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                       </div>
-                                    </div>
-                                 </article>
-
-                                 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="timeline-entry-inner">
-                                       <div class="timeline-icon color-3">
-                                          <i class="icon-pen2"></i>
-                                       </div>
-                                       <div class="timeline-label">
-                                        <h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-                                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                       </div>
-                                    </div>
-                                 </article>
-
-                                 <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                                    <div class="timeline-entry-inner">
-                                       <div class="timeline-icon color-4">
-                                          <i class="icon-pen2"></i>
-                                       </div>
-                                       <div class="timeline-label">
-                                        <h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-                                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                       </div>
-                                    </div>
-                                 </article>
-
-                                 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="timeline-entry-inner">
                                        <div class="timeline-icon color-5">
-                                          <i class="icon-pen2"></i>
+                                          <i class="icon-cloud3"></i>
                                        </div>
                                        <div class="timeline-label">
-                                        <h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-                                          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                           <h2><strong>QA Automation Itern</strong> at Nuance Communications Inc. <br>
+                                               <span>May 2017- August 2017</span></h2>
+                                           <ul>
+                                               <li>Reduced overhead of load testing by moving away from JMeter to a custom multi-threaded test
+                                                   framework monitored in real-time using NetData
+                                               </li>
+                                               <li>
+                                                   Automated server configurations for test cases by building a REST API in ExpressJS that injects
+                                                   bash commands during test case setup.
+                                               </li>
+                                               <li>
+                                                   Managed testing VPS environment configuration and engine set-up
+                                               </li>
+                                               <li>
+                                                   Gained significant insight on test-driven development by implemented automated testing scripts
+                                                   with JUnit and Unittest
+                                               </li>
+                                           </ul>
                                        </div>
                                     </div>
                                  </article>
 
-                                 <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                     <div class="timeline-entry-inner">
-                                       <div class="timeline-icon color-none">
+                                       <div class="timeline-icon color-1">
+                                          <i class="icon-code"></i>
+                                       </div>
+                                       <div class="timeline-label">
+                                        <h2><strong>Software Developer Intern</strong> at Wedo <br>
+                                            <span>July 2016 - October 2016</span></h2>
+                                           <ul>
+                                               <li>Integrated quick quote feature that calculates surface area by coloring a canvas layered over a
+                                                   satellite image
+                                               </li>
+                                               <li>
+                                                   Designed and built a service chatbot using Facebook's Messenger API over Webhooks
+                                               </li>
+                                               <li>
+                                                   Built reactive interfaces with Meteor JS's two-way data binding's protocol (DDP) over the
+                                                   WebSocket.
+                                               </li>
+                                           </ul>
                                        </div>
                                     </div>
+                                 </article>
+                                 <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                     <div class="timeline-entry-inner">
+                                         <div class="timeline-icon color-none">
+                                         </div>
+                                     </div>
                                  </article>
                               </div>
                            </div>
                        </div>
                     </div>
-                </section>-->
+                </section>
 
-                <!--<section class="colorlib-work" data-section="work">
+
+
+
+                <section id="projects" class="colorlib-work" data-section="work">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">My Work</span>
-                                <h2 class="colorlib-heading animate-box">Recent Work</h2>
-                            </div>
-                        </div>
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="col-md-12">
-                                <p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+                                <h2 class="colorlib-heading animate-box" style="font-family: 'Merriweather Sans', sans-serif">Projects</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="project" style="background-image: url(images/img-1.jpg);">
+                                <div class="project" style="background-image: url(images/ivsurface.jpg);">
                                     <div class="desc">
                                         <div class="con">
-                                            <h3><a href="work.html">Work 01</a></h3>
-                                            <span>Website</span>
+                                            <h3><a href="work.html"><strong>Data Analysis</strong> <br>on implied volatility for commodities</a></h3>
                                             <p class="icon">
-                                                <span><a href="#"><i class="icon-share3"></i></a></span>
-                                                <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                                                <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                                                <span><a href="#"><i class="icon-github"></i></a></span>
+                                                <span><a href="#"><i class="icon-eye"></i></a></span>
                                             </p>
                                         </div>
                                     </div>
@@ -709,13 +725,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 animate-box">
-                                <p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-                            </div>
-                        </div>
                     </div>
-                </section>-->
+                </section>
 
                 <!--<section class="colorlib-blog" data-section="blog">
                     <div class="colorlib-narrow-content">
