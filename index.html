@@ -21,7 +21,7 @@
         <meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	    <link rel="shortcut icon" href="favicon.ico">
+	    <link rel="shortcut icon" href="images/bit_parachute.png">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
@@ -99,7 +99,7 @@
                             <li><a href="resume.pdf">resume</a></li>
                             <li><a href="#experience">Experience</a></li>
                             <li><a href="#projects">Projects</a></li>
-                            <li><a href="#">blog</a></li>
+                            <li><a href="https://thehanburger.ca">blog</a></li>
 <!--
                             <li><a href="#" data-nav-section="skills">What I love</a></li>
 -->
@@ -539,7 +539,7 @@
                                  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                     <div class="timeline-entry-inner">
 
-                                       <div class="timeline-icon color-2">
+                                       <div class="timeline-icon color-3">
                                           <i class="icon-data"></i>
                                        </div>
 
@@ -639,14 +639,56 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+
+
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url(images/bball2.jpg);">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html"><strong>M. L. B.</strong> <br> Machine Learning Baseball</a></h3>
+                                            <span>
+                                                Aggregated data from multiples sources on regular season game logs and team/player’s statistics. <br>Computed each past game as a vector with n features (aggregated team and players) and trying to perform supervised classification on win-loose using an support vector classifier
+                                                <br>Cross validation with gridsearch on 60-40 data split.
+                                            </span>
+                                            <p class="icon">
+                                                <span><a href="https://github.com/hanburger97/MLB"><i class="icon-github"></i></a></span>
+                                                <!--<span><a href="#"><i class="icon-eye"></i></a></span>-->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
                                 <div class="project" style="background-image: url(images/ivsurface.jpg);">
                                     <div class="desc">
                                         <div class="con">
-                                            <h3><a href="work.html"><strong>Data Analysis</strong> <br>on implied volatility for commodities</a></h3>
+                                            <h3><a href="work.html"><strong>Corny Volatility</strong>Implied volatility analysis on Corn Futures</a></h3>
+                                            <span>
+                                                Analyze the effect of the WASDE report published monthly by the USDA on the implied volatility dynamics for corn futures. <br>
+                                                Built a real-time data pre-processing pipeline using Interactive Brokers’ API in C++ with Apache Kafka for low-latency message processing to compute implied volatility.
+                                            </span>
                                             <p class="icon">
-                                                <span><a href="#"><i class="icon-github"></i></a></span>
-                                                <span><a href="#"><i class="icon-eye"></i></a></span>
+                                                <!--<span><a href="#"><i class="icon-github"></i></a></span>
+                                                <span><a href="#"><i class="icon-eye"></i></a></span>-->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                                <div class="project" style="background-image: url(images/drl_cnn.png);">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="">Portfolio Management in <br><strong>Deep RL</strong>
+                                            </a></h3>
+                                            <span>
+                                                Attempt to reproduce a paper by Jiang et al. on financial portfolio optimizer using a deep reinforcement learning agent using Keras and data from Yahoo Finance. <br>
+                                                Outputs a vector of weights to m instruments in portfolio for optimized performance. <br>
+                                                CNN of 3 dense layers with rectified linear activation and Gradient Descent Optimizer (SGD) and a final layer with softmax .
+                                            </span>
+                                            <p class="icon">
+                                                <!--<span><a href="#"><i class="icon-github"></i></a></span>
+                                                <span><a href="#"><i class="icon-eye"></i></a></span>-->
                                             </p>
                                         </div>
                                     </div>
@@ -656,43 +698,18 @@
                                 <div class="project" style="background-image: url(images/chatbot.jpeg);">
                                     <div class="desc">
                                         <div class="con">
-                                            <h3><a href="work.html"><strong>Albert</strong> <br> The chatbot butler</a></h3>
+                                            <h3><a href=""><strong>Albert</strong> <br> The chatbot butler</a></h3>
                                             <p class="icon">
-                                                <span><a href="#"><i class="icon-github"></i></a></span>
-                                                <span><a href="#"><i class="icon-eye"></i></a></span>
+                                                <!--<span><a href="#"><i class="icon-github"></i></a></span>
+                                                <span><a href="#"><i class="icon-eye"></i></a></span>-->
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-                                <div class="project" style="background-image: url(images/drl.png);">
-                                    <div class="desc">
-                                        <div class="con">
-                                            <h3><a href="work.html">Portfolio Management in <br><strong>Deep RL</strong>
-                                            </a></h3>
-                                            <span>Based on a paper from Jiang et al.</span>
-                                            <p class="icon">
-                                                <span><a href="#"><i class="icon-github"></i></a></span>
-                                                <span><a href="#"><i class="icon-eye"></i></a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-                                <div class="project" style="background-image: url(images/bitmex.jpg);">
-                                    <div class="desc">
-                                        <div class="con">
-                                            <h3><a href="work.html">Cryptocurrency <br><strong>Market Maker</strong></a></h3>
-                                            <p class="icon">
-                                                <span><a href="#"><i class="icon-github"></i></a></span>
-                                                <span><a href="#"><i class="icon-eye"></i></a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+
+
 
 
                         </div>
