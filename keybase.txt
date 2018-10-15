@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hanburger97
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hanxiao.ca
+  * I am hanburger97 (https://keybase.io/hanburger97) on keybase.
+  * I have a public key ASBGVybkVA_L_y4tvL7O80TYj0scXnTYpdwxLloItCMn5Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120465726e4540fcbff2e2dbcbecef344d88f4b1c5e74d8a5dc312e5a08b42327e50a",
+      "host": "keybase.io",
+      "kid": "0120465726e4540fcbff2e2dbcbecef344d88f4b1c5e74d8a5dc312e5a08b42327e50a",
+      "uid": "3bd6a47f3a21d71295aa3f15efc24a19",
+      "username": "hanburger97"
+    },
+    "merkle_root": {
+      "ctime": 1539577636,
+      "hash": "77a26cb0dc03787b3c938cd67d33dcd10e1200d8c45b5f11f320ff9b8f1afd3b167bed2148eba313f3db9699e249f514aa8ae709e4052fe3c98c25c1bdebd66e",
+      "hash_meta": "17da5216b7a1bec933d3041b0135a4c9ae547e162387b2c8bd45c74181c9571b",
+      "seqno": 3795211
+    },
+    "service": {
+      "entropy": "lzwbso1Q86Mpxrdbj+cbTtsD",
+      "hostname": "hanxiao.ca",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.3"
+  },
+  "ctime": 1539577650,
+  "expire_in": 504576000,
+  "prev": "a2bda4b41dce8c938fed0317dd886888fbce5a4ddef0e3eb148838b823d8c5cf",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRlcm5FQPy/8uLby+zvNE2I9LHF502KXcMS5aCLQjJ+UKp3BheWxvYWTESpcCBsQgor2ktB3OjJOP7QMX3YhoiPvOWk3e8OPrFIg4uCPYxc/EIK9/KORUAfoDN4fcPVhWiBit1pZMPRI+G5VIhofiAHjeAgHCo3NpZ8RAG782uXQtVmRLMIU5pcXCAcL2a1wT0H4LNNg0xL7PoAuvOxhI/WqB0Guo8ohAaRbohm1xT2hn1xhJTbUfhcfbAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHPYLhWbkoAJa84VUbqItll+vse2vx65gIAMg00nnzLEo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hanburger97
+
+==================================================================
