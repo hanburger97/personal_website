@@ -900,15 +900,15 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn-info {
   color: #fff;
-  border-color: #00b8d8;
-  background-color: #00b8d8;
+  border-color: #0026ff;
+  background-color: #0026ff;
   box-shadow: none;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #00a2bf;
-  border-color: #00a2bf;
+  background-color: #0026ff;
+  border-color: #0026ff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(0, 184, 216, 0.25);
 }
 
@@ -917,8 +917,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .btn-info.disabled, .btn-info:disabled {
-  background-color: #00b8d8;
-  border-color: #00b8d8;
+  background-color: #00127c;
+  border-color: #00127c;
   box-shadow: none;
   cursor: not-allowed;
 }
@@ -926,8 +926,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #00a2bf;
-  border-color: #008da5;
+  background-color: #0026ff;
+  border-color: #0026ff;
   background-image: none;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
 }
@@ -4930,6 +4930,9 @@ a.bg-light:hover, a.bg-light:focus {
 
 .bg-dark {
   background-color: #212529 !important;
+  background-image: url("../images/circuit.png");
+  background-position: bottom right; /* Center the image */
+  background-repeat: no-repeat;
 }
 
 .bg-dark.card .card-title,
